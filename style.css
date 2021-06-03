@@ -8,11 +8,21 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	color: #888;
+	color: #222;
+	padding-bottom: 50px;
+}
+
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
 }
 
 .container {
 	margin: 0 auto;
+	max-width: 1200px;
 }
 
 .hero {
@@ -52,7 +62,12 @@ body {
 	letter-spacing: 1.5px;
 }
 
-.content h1,
+.content {
+	padding: 0 10px;
+	text-align: justify;
+}
+
+.content h2,
 .content h3 {
 	margin: 20px 0;
 }
