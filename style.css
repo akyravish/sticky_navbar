@@ -25,6 +25,7 @@ body {
 	left: 0;
 	right: 0;
 	background-color: #222;
+	transition: all 0.5s ease-in-out;
 }
 
 .nav .container {
@@ -32,6 +33,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 10px;
+	transition: all 0.5s ease-in-out;
 }
 
 .nav ul {
@@ -48,11 +50,13 @@ body {
 .nav a {
 	text-decoration: none;
 	color: #fff;
+	transition: all 0.5s ease-in-out;
 }
 
 /* nav active class section */
 .nav.active {
 	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .nav.active .container {
